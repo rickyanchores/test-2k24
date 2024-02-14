@@ -1,6 +1,8 @@
 import { Button, ThemeProvider } from '@material-tailwind/react';
 import React from 'react'
 import { NavbarDefault } from './Components/Navbar/NavbarDefault';
+import { CardDefault } from './Components/Card/CardDefault';
+import { CardLink } from './Components/CardLink/CardLink';
 
 
 const App = () => {
@@ -8,7 +10,8 @@ const App = () => {
     <div className='App'>
         <NavbarDefault/>
         <h1>App</h1>
-        <Button>Button Example</Button>
+        <CardDefault />
+        <CardLink />
     </div>
   )
 }
